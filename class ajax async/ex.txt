@@ -1,0 +1,12 @@
+Step 1
+
+Create a Car class with the following properties: brand, model, color, km and year.
+Add a method "kmPerYear". Calculates the km per year.
+Create 3 instances and add them to an array (Bonus: read the data from a JSON file using AJAX).
+Find and print the car with the highest km per year (loop over array).
+Step 2 (using Bootstrap)
+
+Show all cars in an HTML table (dynamically - using code)
+Add a form with input fields for a car. Clicking on add will create an instance of this car and will add to the array and to the table.
+Bonus: the car with the highest km per year will be highlighted
+ 

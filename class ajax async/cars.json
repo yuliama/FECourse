@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "brand": "Toyota",
+        "model" : "Corolla",
+        "color" : "white",
+        "km": 50000,
+        "year": 2020
+    },
+    {
+        "id": 2,
+        "brand": "Suzuki",
+        "model" : "Jimny",
+        "color" : "grey",
+        "km": 100000,
+        "year": 2010
+    },
+    {
+        "id": 3,
+        "brand": "Honda",
+        "model" : "Civic",
+        "color" : "red",
+        "km": 18000,
+        "year": 2021
+    }
+]

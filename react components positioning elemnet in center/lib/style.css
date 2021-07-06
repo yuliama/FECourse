@@ -1,0 +1,78 @@
+/* Add your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav > ul{
+    list-style-type: none;
+    display:flex;
+    padding: 0 324px;
+    color:#919191;
+}
+nav > ul > li{
+    padding-right:36px;
+    align-self: center;
+}
+nav > ul > li:last-child{
+    text-align: end;
+    flex: 3;
+}
+main{
+    background-color: #EF7D74;
+    color:white;
+    margin:auto;
+    padding:100px;
+    text-align: center;
+}
+main > .title{
+    max-width:675px;
+    margin:auto;
+}
+main h1{
+    font-size: 65px;
+}
+main span{
+    font-size: 20px;
+    line-height: 30px;
+}
+main .services{
+    display:flex;
+    margin: 50px auto;
+    max-width:1000px;
+}
+main .service{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .service ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+main .service .circle
+{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    padding: 63px 21px;
+    position:relative;
+}
+main .service .circle>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main .service h4{
+    font-size: 25px;
+    margin-top: 45px;
+}
